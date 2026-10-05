@@ -16,18 +16,21 @@ public class Ejercicio23 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        
+        double precio;
+        double cantidad;
+        
         Scanner entrada = new Scanner (System.in);
         
-        System.out.print("Por favor, introduzca el precio del modelo de ordenador que desea comprar: ");
-        double precio = entrada.nextDouble();
-
-        System.out.print("¿Cuántas unidades quiere llevarse? ");
-        int unidades = entrada.nextInt();
-
-        double total = precio * unidades;
+        System.out.println("Por favor, introduzca el precio del modelo de ordenador que desea comprar: ");
+        System.out.println("Precio: ");
+        precio = entrada.nextDouble();
         
-        System.out.println("El precio total de su compra es de: " + total + " Euros.");
+        System.out.println("¿Cuántas unidades quiere llevarse? ");
+        System.out.println("Cantidad: ");
+        cantidad = entrada.nextDouble();
         
+        System.out.println("El precio total de su compra es de: " + (cantidad * precio) + " Euros.");
         // TODO code application logic here
     }
     
