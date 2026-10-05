@@ -22,3 +22,7 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+/Tema02/ejercicio21/nbproject/private/
+/Tema02/ejercicio21/build/
+/Tema02/ejercicio23/nbproject/private/
+/Tema02/ejercicio23/build/

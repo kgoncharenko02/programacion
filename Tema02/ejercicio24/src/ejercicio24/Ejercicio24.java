@@ -19,25 +19,25 @@ public class Ejercicio24 {
         
         double programacion, lenguajesMarcas, basesDatos, entornos, sistemas, fol;
         
-        Scanner teclado = new Scanner (System.in);
+        Scanner entrada = new Scanner (System.in);
         
         System.out.print("Por favor, introduzca la nota de Programación: ");
-        programacion = teclado.nextDouble();
+        programacion = entrada.nextDouble();
         
         System.out.print("Introduzca la nota de Lenguajes de Marcas: ");
-        lenguajesMarcas = teclado.nextDouble();
+        lenguajesMarcas = entrada.nextDouble();
         
         System.out.print("Introduzca la nota de Bases de Datos: ");
-        basesDatos = teclado.nextDouble();
+        basesDatos = entrada.nextDouble();
         
         System.out.print("Introduzca la nota de Entornos de Desarrollo: ");
-        entornos = teclado.nextDouble();
+        entornos = entrada.nextDouble();
         
          System.out.print("Introduzca la nota de Sistemas Informáticos: ");
-        sistemas = teclado.nextDouble();
+        sistemas = entrada.nextDouble();
         
         System.out.print("Por último, introduzca la nota de Formación y Orientación Laboral: ");
-        fol = teclado.nextDouble();
+        fol = entrada.nextDouble();
         
         double notaMedia = (programacion + lenguajesMarcas + basesDatos + entornos + sistemas + fol) / 6;
         
