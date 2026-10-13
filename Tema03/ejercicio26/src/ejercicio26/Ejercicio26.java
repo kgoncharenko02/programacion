@@ -14,9 +14,10 @@ public class Ejercicio26 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        //Pongo que la suma es 0
+        //Inicializo la suma.
         int suma = 0;
         
+        // For recorre los números del 111 al 222
         for (int i = 111; i <= 222; i++){
             // Compruebo si el numero es impar
             if (i % 2 != 0){
