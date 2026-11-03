@@ -27,12 +27,10 @@ public class Ejercicio03 {
         int num2 = entrada.nextInt();
         
         System.out.print("Por favor, introduzca un tercer número: ");
-        int num3 = entrada.nextInt();
-        
-        Operaciones objeto = new Operaciones();
+        int num3 = entrada.nextInt();  
 
         // Llamo al método que muestra el número mayor.
-        objeto.mostrarMayor(num1, num2, num3);
+        Operaciones.mayor(num1, num2, num3);
        
         // TODO code application logic here
     }
